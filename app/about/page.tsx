@@ -6,7 +6,7 @@ export default function About() {
         About ND Stock Gallery
       </h1>
       <p className="text-base mb-4 text-gray-400">
-        Hey there! I'm Naeem Davids and Welcome to my ND Stock Gallery App, a
+        Hey there! I am Naeem Davids and Welcome to my ND Stock Gallery App, a
         fun project I put together while learning at{" "}
         <strong>My Coding School</strong>. This app lets you browse and enjoy
         some amazing stock photos and videos, all pulled in from the{" "}
