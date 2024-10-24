@@ -43,7 +43,7 @@ const VideoLayout: React.FC<VideoLayoutProps> = ({ videoFiles, videoId }) => {
   };
 
   return (
-    <div className={`w-[540px] justify-self-center`}>
+    <div className={`w-full max-w-[540px] justify-self-center`}>
       {/* Use the main videoId for linking to the detailed video page */}
       <Link
         href={`/video/${videoId}`} // Use the main video ID here.
