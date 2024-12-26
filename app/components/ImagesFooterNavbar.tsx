@@ -87,7 +87,7 @@ export default function ImagesFooterNavbar({
 
   return (
     // Footer layout: a flex container that aligns the buttons horizontally and centers them within a fixed width.
-    <footer className="flex flex-row justify-between items-center font-bold p-2 w-60 mx-auto">
+    <footer className="flex flex-row justify-between items-center font-bold p-2 w-60 mx-auto text-white">
       {prevPageButtonArea}{" "}
       {/* Render the previous page and intermediate page links */}
       {nextPageButtonArea} {/* Render the next page link */}

@@ -53,7 +53,7 @@ export default function Navbar() {
         {/* Flex container to distribute space between title/navigation and search bar */}
         <div className="flex flex-col md:flex-row justify-between items-center w-full wantSpaceHere">
           {/* Title and navigation links */}
-          <div>
+          <div className="text-white">
             {/* Website title - becomes a clickable link to the homepage. */}
             <div className="flex flex-col sm:flex-row sm:items-center w-full">
               <h1 className="text-2xl sm:text-3xl text-center sm:text-left w-full sm:w-auto">

@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex flex-col min-h-screen">
+      <body className="flex flex-col min-h-screen bg-slate-900">
         <Navbar />
         {/* Main content section grows to fill available space */}
         <main className="flex-grow">
